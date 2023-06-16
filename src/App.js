@@ -11,8 +11,6 @@ import Ether from './components/Widgets/Ether';
 import Favorites from './components/Widgets/Favorites';
 import TVProgram from './components/Widgets/TVProgram';
 
-import './App.css';
-
 function App() {
   const newsСategories = ['Сейчас в СМИ', 'в Германии', 'Рекомендуем'];
 
@@ -119,7 +117,7 @@ function App() {
             <AdtImg
               containerClass="adt__image-container"
               imgClass="adt-image"
-              src="https://picsum.photos/id/1/100"
+              src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
               alt="Plug"
             />
           </Adt>
@@ -139,7 +137,7 @@ function App() {
           <Banner
             containerClass="banner"
             imgClass="banner-image"
-            src="https://picsum.photos/id/15/1700"
+            src="https://images.unsplash.com/photo-1638316132295-7b5866fda5d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
             alt="Plug"
           />
         </div>
